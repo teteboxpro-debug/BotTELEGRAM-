@@ -296,7 +296,7 @@ fun BotSimulatorScreen(
                                 BotScreenState.ACCEPTED -> {
                                     // Button 1: Free Channel Link
                                     TelegramInlineUrlButton(
-                                        text = "𝐟𝐫𝐞𝐞 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝗹𝗶𝗻𝗸",
+                                        text = "FREE CHANNEL",
                                         url = config.freeChannelLink,
                                         testTag = "btn_free_channel",
                                         onClick = {
@@ -306,7 +306,7 @@ fun BotSimulatorScreen(
                                     Spacer(modifier = Modifier.height(8.dp))
                                     // Button 2: Store & Payment
                                     TelegramInlineUrlButton(
-                                        text = "💳 𝗦𝘁𝗼𝗿𝗲 & 𝗣𝗮𝘆𝗺𝗲𝗻𝘁",
+                                        text = "VIP STORE",
                                         url = config.storePaymentLink,
                                         testTag = "btn_store_payment",
                                         onClick = {
@@ -316,7 +316,7 @@ fun BotSimulatorScreen(
                                     Spacer(modifier = Modifier.height(8.dp))
                                     // Button 3: Visit Website
                                     TelegramInlineUrlButton(
-                                        text = "🌐 Visit Website",
+                                        text = "VIST WEP",
                                         url = config.websiteLink,
                                         testTag = "btn_website",
                                         onClick = {

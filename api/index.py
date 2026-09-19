@@ -69,9 +69,9 @@ class handler(BaseHTTPRequestHandler):
                     "parse_mode": "Markdown",
                     "reply_markup": {
                         "inline_keyboard": [
-                            [{"text": "📢 Main Channel", "url": "https://t.me/teteboxvip2"}],
-                            [{"text": "💬 VIP Chat", "url": "https://t.me/teteboxvip2"}],
-                            [{"text": "🛍️ Services", "url": "https://t.me/teteboxvip2"}]
+                            [{"text": "FREE CHANNEL", "url": "https://rentry.co/Teteboxvip"}],
+                            [{"text": "VIP STORE", "url": "https://t.me/SoSoeteboxvipbot?start=buy_O_LAOyTP05"}],
+                            [{"text": "VIST WEP", "url": "https://eteboxvip.carrd.co/"}]
                         ]
                     }
                 }

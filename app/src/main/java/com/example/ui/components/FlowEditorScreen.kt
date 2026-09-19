@@ -176,7 +176,7 @@ fun FlowEditorScreen(
                 OutlinedTextField(
                     value = freeChannelLink,
                     onValueChange = { freeChannelLink = it },
-                    label = { Text("رابط زر '𝐟𝐫𝐞𝐞 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝗹𝗶𝗻𝗸'") },
+                    label = { Text("رابط زر 'FREE CHANNEL'") },
                     leadingIcon = { Icon(Icons.Default.Link, contentDescription = null) },
                     modifier = Modifier.fillMaxWidth().testTag("input_free_channel")
                 )
@@ -186,7 +186,7 @@ fun FlowEditorScreen(
                 OutlinedTextField(
                     value = storePaymentLink,
                     onValueChange = { storePaymentLink = it },
-                    label = { Text("رابط زر '💳 𝗦𝘁𝗼𝗿𝗲 & 𝗣𝗮𝘆𝗺𝗲𝗻𝘁'") },
+                    label = { Text("رابط زر 'VIP STORE'") },
                     leadingIcon = { Icon(Icons.Default.Link, contentDescription = null) },
                     modifier = Modifier.fillMaxWidth().testTag("input_store_payment")
                 )
@@ -196,7 +196,7 @@ fun FlowEditorScreen(
                 OutlinedTextField(
                     value = websiteLink,
                     onValueChange = { websiteLink = it },
-                    label = { Text("رابط زر '🌐 Visit Website'") },
+                    label = { Text("رابط زر 'VIST WEP'") },
                     leadingIcon = { Icon(Icons.Default.Link, contentDescription = null) },
                     modifier = Modifier.fillMaxWidth().testTag("input_website")
                 )

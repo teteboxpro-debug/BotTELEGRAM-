@@ -85,9 +85,9 @@ async def accept_callback(callback: types.CallbackQuery):
     save_user(callback.from_user.id, callback.from_user.username or "", True)
     
     markup = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="𝐟𝐫𝐞𝐞 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝗹𝗶𝗻𝗸", url="${config.freeChannelLink}")],
-        [InlineKeyboardButton(text="💳 𝗦𝘁𝗼𝗿𝗲 & 𝗣𝗮𝘆𝗺𝗲𝗻𝘁", url="${config.storePaymentLink}")],
-        [InlineKeyboardButton(text="🌐 Visit Website", url="${config.websiteLink}")]
+        [InlineKeyboardButton(text="FREE CHANNEL", url="${config.freeChannelLink}")],
+        [InlineKeyboardButton(text="VIP STORE", url="${config.storePaymentLink}")],
+        [InlineKeyboardButton(text="VIST WEP", url="${config.websiteLink}")]
     ])
     
     caption_text = (
