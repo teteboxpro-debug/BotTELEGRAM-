@@ -1,0 +1,6 @@
+{
+  "name": "Telegram Bot Studio",
+  "description": "Interactive Telegram Bot simulator, deployment guide, and code exporter for channel verification and link bots.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
